@@ -1,5 +1,7 @@
-<!-- Note: you can get content assist thanks to DTD schema files. See the official LML page. -->
-<window title="Example" style="border" defaultPad="4" oneColumn="true" alpha="0" onShow="fadeIn">
-    <textButton onClick="playClicked" tablePad="8">Play</textButton>
-    <textButton onClick="quitClicked" tablePad="8">Quit</textButton>
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "../../lml.dtd">
+
+<window title="Intrepid" style="border" defaultpad="4" onecolumn="true" alpha="0" onshow="fadeIn">
+    <textbutton onclick="playClicked" tablepad="8">Play</textbutton>
+    <textbutton onclick="quitClicked" tablepad="8">Quit</textbutton>
 </window>
