@@ -1,5 +1,5 @@
 <!-- Note: you can get content assist thanks to DTD schema files. See the official LML page. -->
 <window title="Example" style="border" defaultPad="4" oneColumn="true" alpha="0" onShow="fadeIn">
-  This is a simple LML view.
-  <textButton onClick="setClicked" tablePad="8">Click me!</textButton>
+    <textButton onClick="playClicked" tablePad="8">Play</textButton>
+    <textButton onClick="quitClicked" tablePad="8">Quit</textButton>
 </window>
